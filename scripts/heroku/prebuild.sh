@@ -1,7 +1,7 @@
 
 echo "Fetch Submodules"
-git clone --depth 1 https://github.com/ohmyform/ui ui
-git clone --depth 1 https://github.com/ohmyform/api api
+git clone --depth 1 https://github.com/Think-Yoruba-First/omf-ui ui
+git clone --depth 1 https://github.com/Think-Yoruba-First/omf-api api
 
 echo "UI ref is"
 git --git-dir=ui/.git rev-parse HEAD
